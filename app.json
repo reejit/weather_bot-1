@@ -16,22 +16,15 @@
   "success_url": "https://telegram.dog/UserBotTalk",
   "website": "https://github.com/SpEcHiDe/PyroGramBot",
   "env": {
-    "": {
+    "TOKEN": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
     },
-    "APP_ID": {
+    "HEROKU_DEPLOY_DOMAIN": {
       "description": "Get this value from https://my.telegram.org"
     },
-    "API_HASH": {
+    "DEBUG": {
       "description": "Get this value from https://my.telegram.org"
-    },
-    "TG_BOT_TOKEN_BF_HER": {
-      "description": "Get this value from @BotFather"
-    },
-    "COMMAND_HAND_LER": {
-      "description": "specify command handler that should be used for the plugins",
-      "required": false
     }
   },
   "addons": [{
