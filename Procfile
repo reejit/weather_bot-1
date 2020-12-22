@@ -1,1 +1,1 @@
-worker: gunicorn run:run_app
+worker: python3 run.py
