@@ -63,7 +63,7 @@ remote: Verifying deploy... done.
 ```
 Now go to the app page (the link of the domain you copied before) and add 
 to the end of the link /setwebhook so that the address will be something 
-like https://appname.herokuapp.com/setwebhook, if you see webhook setup 
+like https://heroku.com/deploy , if you see webhook setup 
 ok then you are ready to go!
 
 # Deploying on Local Host (Ngrok)
